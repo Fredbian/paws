@@ -87,7 +87,7 @@ npm start
 
 ## URLs
 * Github: https://github.com/Zoki91/Paws-For-Homes  
-* Deployed URL: https://paws-for-homes.herokuapp.com/ 
+* Deployed URL: https://paws-for-home.herokuapp.com/ 
 #
 
 ## 🔗 GitHub Links
