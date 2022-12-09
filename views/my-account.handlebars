@@ -1,0 +1,25 @@
+
+  <h1 class="myaccountH">My Account</h1>
+  <div class="container" id="sectionform">
+    <div class="row">
+      <section>
+        {{#if pets}}
+        {{#each pets as |pet|}}
+        {{> user-pet-details pet=pet}}
+        {{/each}}
+        {{else}}
+          <h2 class="accountP">Looks like your pet hasn't found a home yet. <br>Click Find a Home to get started!</h2>
+        <div class="container-fluid">
+    <div class="row">
+      <section class="col-md-12 mt-4 p-5">
+        <div class="d-flex flex-wrap align-items-center w-200 h-200">
+          <img src="/img/pet-adopt.jpg" alt="" class="w-100" />
+        </div>
+      
+        {{/if}}
+      </section>
+    </div>
+  </div>
+</div>
+<script src="/js/updateDetails.js"></script>
+<script src="/js/delete-pet.js"></script>

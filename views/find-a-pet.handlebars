@@ -1,0 +1,46 @@
+<h1 class="searchHeading">Search for a Pet</h1>
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-md-6">
+      <div class="input-group input-group-lg">
+        <span
+          class="input-group-text btn btn-dark"
+          id="inputGroup-sizing-lg"
+        >Search</span>
+        <input
+          type="text"
+          class="form-control"
+          id="search-bar"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-sm"
+          placeholder="You can only search for Dog or Cat"
+        />
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+
+  <div id="search-results" class="row"></div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Owner Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./js/search.js"></script>

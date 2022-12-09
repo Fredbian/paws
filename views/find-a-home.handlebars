@@ -1,0 +1,84 @@
+{{#if loggedIn}}
+<h1 class="findhome-heading">Find a Home</h1>
+<div class="container-fluid">
+    <div class="row">
+      <section class="col-md-6 mt-4 p-5">
+        <div class="d-flex flex-wrap align-items-center w-100 h-100">
+          <img src="img/findahome.jpg" alt="" class="w-100" />
+        </div>
+
+      </section>
+      <section class="col-md-6 mt-4 p-5">
+        <form class="register-form">
+          <h2 class="registeryourPet">Register your Pet</h2>
+
+          <label for="text">Type of Pet</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="type-of-pet"
+            placeholder="Enter type of pet..."
+          />
+
+          <label for="text">Name</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="name-of-pet"
+            placeholder="Enter type of pet..."
+          />
+
+          <label for="text">Breed</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="breed"
+            placeholder="Enter type of pet..."
+          />
+
+          <label for="text">Age</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="age"
+            placeholder="Enter age of pet..."
+          />
+
+          <label for="text">Gender</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="gender"
+            placeholder="Enter pet's gender..."
+          />
+
+          <label for="text">Description</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="description"
+            placeholder="Why, things we should know..."
+          />
+
+          <label for="text">Location</label>
+          <select name="cities" id="cities" class="form-control">
+            <option value="Melbourne">Melbourne</option>
+            <option value="Sydney">Sydney</option>
+            <option value="Brisbane">Brisbane</option>
+          </select>
+          <button>Submit</button>
+        </form>
+      </section>
+
+    </div>
+  </div>
+
+  <p>
+{{else}}
+
+  
+    I see you're not logged in. get your ass off the couch and
+    <a href="/login">Sign Up</a></p>
+{{/if}}
+
+<script src="js/register.js"></script>

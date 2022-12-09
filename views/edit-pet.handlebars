@@ -1,0 +1,53 @@
+
+
+{{#if loggedIn}}
+
+<h1 class="updatepet-heading">Update your Pet details</h1>
+<div class="container-fluid">
+    <div class="row">
+      <section class="col-md-6 mt-4 p-5">
+        <div class="d-flex flex-wrap align-items-center w-100 h-100">
+          <img src="/img/dog-laptop.jpg" alt="" class="w-100" />
+        </div>
+
+      </section>
+      <section class="col-md-6 mt-4 p-5">
+        <form class="register-form-2">
+          <h2 class="editMyPet">Edit My Pet</h2>
+
+          <label for="text">Age</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="age"
+            name="age-update"
+            placeholder="Enter the new age of your pet..."
+          />
+
+          <label for="text">Description</label>
+          <input
+            class="form-control-sm"
+            type="text"
+            id="description"
+            name="description-update"
+            placeholder="What's something new about your pet?"
+          />
+
+          <label for="text">Location</label>
+          <select name="cities-update" id="cities" class="form-control">
+            <option value="Melbourne">Melbourne</option>
+            <option value="Sydney">Sydney</option>
+            <option value="Brisbane">Brisbane</option>
+          </select>
+          <button id="update-pet">Update</button>
+        </form>
+      </section>
+
+    </div>
+  </div>
+
+
+<script defer src="/js/edit-pet.js"></script>
+
+{{/if}}
+

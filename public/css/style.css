@@ -1,0 +1,303 @@
+/* CSS Styling */
+form h2
+.accountP {
+  font-size: 2.4em;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.heading  {
+  color: #111; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 500px;
+  font-weight: bold; 
+  letter-spacing: -3px; 
+  line-height: 1; 
+  text-align: center; 
+  box-shadow: rgb(199, 56, 56);
+  }
+
+.searchHeading {
+  color: #feda6a;
+}
+
+.findhome-heading {
+  color: #feda6a;
+}
+
+.updatepet-heading {
+  color: #feda6a;
+}
+
+.findhome-heading {
+  color: #feda6a;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold; 
+  letter-spacing: -4px; 
+  line-height: 1; 
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.myaccountH {
+  text-align: left;
+  margin-left: 10px;
+  color: #feda6a;
+}
+
+.card-title1 {
+  text-align: left; 
+  font-family: 'Roboto', sans-serif;
+
+} 
+.subheading  {
+  color: rgb(237, 252, 101); 
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -3px; 
+
+}
+.accountP {
+  align-items: center;
+  color: #feda6a;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 380px;
+}
+
+form, .search-form, .sectionform {
+  width: 360px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(0,0,0.4,0.7);
+  border-radius: 10px;
+  background: #fbe3e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-form, .signup-form{
+  width: 360px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(0,0,0.4,0.7);
+  border-radius: 10px;
+  background: #fbe3e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-body-2 {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(0,0,0.4,0.7);
+  border-radius: 10px;
+  background: #fbe3e8;
+} 
+
+.card-width {
+  width: 20rem;
+}
+
+.register-form {
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.register-form-2 {
+  height: 460px;
+
+}
+
+::-webkit-scrollbar {
+  background-color:#fff;
+  width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+  background-color:#fff
+}
+::-webkit-scrollbar-track:hover {
+  background-color:#fff
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+  background-color:#babac0;
+  border-radius:16px;
+  border:5px solid #fff
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color:#a0a0a5;
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}
+
+.home-page-sign-up {
+  width: 620px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 1px 2px 3px rgba(0,0,0.4,0.7);
+  border-radius: 10px;
+  background: #9facb7;
+  }
+
+input{
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  width: 100%;
+}
+
+label{
+  display: block;
+  margin: 20px 0 10px;
+}
+
+button{
+  margin-top: 30px;
+  border-radius: 36px;
+  background: #feda6a;
+  border:0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  display: block;
+  padding: 10px 16px;
+  letter-spacing: 2px;
+}
+.error{
+  color: #ff0099;
+  margin: 10px 2px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.btn, .btn-outline-dark {
+  margin: 0%;
+}
+
+.card-text-1 {
+  color: red;
+}
+
+.card-text1 {
+  align-items: left;
+}
+
+
+.whyweexist {
+  color: white;
+}
+
+.whoweare {
+  color:white;
+}
+
+#whyweexistP {
+  color: white;
+}
+
+#whoweareP {
+  color: white;
+}
+
+.whyUs {
+color: white;
+}
+
+#whyUs-P {
+  color: white;
+}
+.card-title-typeofpet {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.card-text-breed {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-text-age {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-text-gender {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-text-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.card-text-location {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.h2-signUp {
+  font-weight: bold;
+}
+
+.h2-login {
+  font-weight: bold;
+}
+
+.editMyPet {
+  font-weight: bold;
+}
+
+.registeryourPet {
+  font-weight: bold;
+}
+
+#card-title-typeofpet2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  align-items: left;
+}
+
+#paws4homes {
+  color: #393f4d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+
+}
+
+#paws4homes:hover {
+  background-color: #393f4d;
+  color: white;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+.modal-content {
+  background-color: #fbe3e8;
+
+}
+
+#exampleModalLabel {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  
+}
