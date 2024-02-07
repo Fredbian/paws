@@ -86,7 +86,7 @@ npm start
 #
 
 ## URLs
-* Github: https://github.com/Zoki91/Paws-For-Homes  
+* Github: https://github.com/Fredbian/paws
 * Deployed URL: https://paws-for-home.herokuapp.com/ 
 #
 
